@@ -24,6 +24,7 @@
     "windicss": "^3.0.9"
   },
   "dependencies": {
+    "fs-extra": "^10.0.0",
     "jsdom": "^16.5.3",
     "puppeteer": "^9.1.1",
     "vite": "^2.3.3",
