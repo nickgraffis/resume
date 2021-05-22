@@ -1,0 +1,8 @@
+<ul>
+    {{#each skills}}
+        <li class="space-x-3">
+            <span class="font-bold">{{name}}</span> 
+            <span class="space-x-1 text-gray-600">{{#each keywords}} <span>{{this}}</span>{{#if @last}}{{else}}, {{/if}}{{/each}}</span>  
+        </li>
+    {{/each}}
+</ul>

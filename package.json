@@ -1,0 +1,32 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "View it [here](https://nickgraffis.github.io/resume/)",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgraffis/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgraffis/resume/issues"
+  },
+  "homepage": "https://github.com/nickgraffis/resume#readme",
+  "devDependencies": {
+    "optimist": "^0.6.1",
+    "vite-plugin-windicss": "^0.15.10",
+    "windicss": "^3.0.9"
+  },
+  "dependencies": {
+    "jsdom": "^16.5.3",
+    "puppeteer": "^9.1.1",
+    "vite": "^2.3.3",
+    "vite-plugin-handlebars": "^1.5.1"
+  }
+}

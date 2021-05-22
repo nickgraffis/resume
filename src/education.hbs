@@ -1,0 +1,19 @@
+<div>
+    <ul class="space-y-2">
+        {{#each education}}
+            <li class="text-gray-600 space-y-2">
+                <div>
+                    <p>
+                        <span class="font-bold text-gray-800">{{area}}, {{studyType}}</span>, 
+                        {{institution}}
+                    </p>
+                    <p class="text-sm">
+                        {{formatDate startDate}} - {{#if endDate}} {{formatDate endDate}} {{/if}} {{#unless endDate}} 
+                        <span class="italic">present</span>{{/unless}}
+                    </p>
+                </div>
+                <p>{{description}}</p>
+            </li>
+        {{/each}}
+    </ul>
+</div>

@@ -1,0 +1,18 @@
+<div class="grid grid-cols-2 gap-8">
+    {{#each projects}}
+        <div class="col-span-2 lg:col-span-1 text-gray-600">
+            <div class="flex items-center space-x-2">
+                <p class="font-bold text-gray-800">{{name}}</p>
+                {{#if githubUrl}}<a aria-label="GitHub" href="{{githubUrl}}">{{> github}}</a>{{/if}}
+                {{#if website}}<a aria-label={{name}} href="{{website}}">{{> link}}</a>{{/if}}
+            </div>
+            <p>{{summary}}</p>
+            <div class="flex items-center justify-start my-2">
+                <p class="p-1 text-xs bg-gray-800 rounded-sm text-gray-100">{{primaryLanguage}}</p>
+            </div>
+        </div>
+    {{/each}}
+    <a href="{{basics.projects_url}}" class="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out hover:text-fuchsia-700">
+        More Projects...
+    </a>
+</div>

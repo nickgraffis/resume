@@ -1,0 +1,278 @@
+{
+    "basics": {
+      "name": "Nick Graffis",
+      "picture": "https://nickgraffis.me/nick.png",
+      "label": "Software Engineer",
+      "headline": "",
+      "summary": "I am a software engineer with a stack that includes frontend and backend, and multiple languages and frameworks. Four years of experience in software development building tools quickly, efficiently, without sacrificing quality and care. A great problem solver who can quickly identify and methodically solve issues. Highly dynamic and adaptive; combining creativity and critical thinking to solve complex problems. Known among colleagues for strong collaboration skills, leadership qualities and a keen understanding of design and user needs. \n\n As a self motivated software enthusiest, I have contributed to several major improvements to my company's platform, Model Match, and developed several personal and open source projects, as-well-as contributing to other open source projects.",
+      "website": "https://nickgraffis.me",
+      "projects_url": "https://nickgraffis.me/projects",
+      "username": "nickgraffis",
+      "email": "hi@nickgraffis.me",
+      "location": {
+        "city": "Long Beach, San Fransisco (Remote)",
+        "region": "California",
+        "countryCode": "USA"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "nickgraffis",
+          "url": "https://github.com/nickgraffis"
+        },
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/nickgraffis",
+          "username": "nickgraffis"
+        },
+        {
+          "network": "Twitter",
+          "url": "https://twitter.com/nickgraffistwit",
+          "username": "nickgraffistwit"
+        },
+        {
+          "network": "Instagram",
+          "username": "nicholasgraffis",
+          "url": "https://instagram.com/nicholasgraffis"
+        },
+        {
+          "network": "Portfolio",
+          "username": "nickgraffis",
+          "url": "https://nickgraffis.me"
+        }
+      ]
+    },
+    "skills": [
+      {
+        "keywords": [
+          "Typescript",
+          "Javascript",
+          "Vue",
+          "React",
+          "Svelte",
+          "Angular",
+          "RxJs"
+        ],
+        "level": "Senior",
+        "name": "Frontend"
+      },
+      {
+        "keywords": [
+          "Node",
+          "MongoDB",
+          "MySQL",
+          "Serverless",
+          "Nginx",
+          "Docker",
+          "AWS",
+          "FaunaDB",
+          "NoSQL"
+        ],
+        "level": "Senior",
+        "name": "Backend"
+      },
+      {
+        "keywords": [
+          "Firebase",
+          "AWS",
+          "Azure"
+        ],
+        "level": "Intermediate",
+        "name": "DevOps"
+      },
+      {
+        "keywords": [
+          "Python",
+          "C/C++",
+          "Go"
+        ],
+        "level": "Intermediate",
+        "name": "Languages"
+      },
+      {
+        "keywords": [
+          "Figma",
+          "Adobe Suite",
+          "CSS",
+          "GSAP"
+        ],
+        "level": "Intermediate",
+        "name": "Design"
+      }
+    ],
+    "projects": [
+      {
+        "name": "HadenaJS",
+        "displayName": "i18n Ally",
+        "summary": "Library for manipulating colors, and an awesome web app to show it off.",
+        "website": "https://hadena.app",
+        "githubUrl": "https://github.com/",
+        "primaryLanguage": "TypeScript"
+      },
+      {
+        "name": "LocalDB",
+        "displayName": "@vue/composition-api",
+        "summary": "Wrapper for quickly working with local storage in javascript.",
+        "githubUrl": "https://github.com/nickgraffis/localDB",
+        "primaryLanguage": "JavaScript"
+      },
+      {
+        "name": "Youmoji",
+        "displayName": "VueUse",
+        "summary": "A fun tool to create and download your own emojis from twemoji svg paths.",
+        "website": "https://youmoji.app/",
+        "githubUrl": "https://github.com/",
+        "primaryLanguage": "JavaScript"
+      },
+      {
+        "name": "Personal Profile",
+        "displayName": "wenyan-lang",
+        "summary": "My personal profile, a static site generated with Vite.",
+        "website": "https://nickgraffis.me",
+        "githubUrl": "https://github.com/nickgraffis/ng-space",
+        "primaryLanguage": "TypeScript"
+      },
+      {
+        "name": "Babelbox",
+        "displayName": "Babelbox",
+        "summary": "A collection of fun games to play with your friends either in the same room, or across the globe.",
+        "githubUrl": "https://babelbox.herokuapp.com",
+        "githubUrl": "https://github.com",
+        "primaryLanguage": "JavaScript"
+      }
+    ],
+    "work": [
+      {
+        "company": "Model Match, Inc.",
+        "position": "Full-stack Software Engineer",
+        "website": "https://www.modelmatch.com/",
+        "location": "San Clemente, CA",
+        "isCurrentRole": true,
+        "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
+        "highlights": [
+          "Developed an improved system for querieing people information, and enriching data with outside sources.",
+          "Improved indexing and querieing as a whole with ElasticSearch and Dynamo DB. "
+        ],
+        "startDate": "2021-03-29",
+        "start": {
+          "year": 2021,
+          "month": 3
+        }
+      },
+      {
+        "company": "Bavel Technoligies, Ltd.",
+        "position": "Co-Founder, Lead Software Engineer",
+        "website": "http://www.baveltech.com/",
+        "location": "Los Angeles, California",
+        "summary": "Worked on developing POS system in C#.NET and ASP.NET",
+        "isCurrentRole": true,
+        "startDate": "2020-12-01",
+        "start": {
+          "year": 2020,
+          "month": 12
+        },
+        "highlights": [
+          "Built several open source projects that make the web more fun.",
+          "Built a contracted PWA application for sports tournaments and data collection."
+        ]
+      }
+    ],
+    "publications": [
+      {
+        "name": "Binjiang Front-End Developer Salon, Hangzhou",
+        "summary": "Talked about the reactivity system and Composition API in Vue.js",
+        "publisher": "Bingjiang Front-End Union",
+        "website": "https://wemp.app/posts/5ec27920-8201-4ef2-9027-92b09b136fab",
+        "releaseDate": "2020-09-26",
+        "slides": "https://antfu.me/posts/binfe-2020-zh/",
+        "fullReleaseDate": {
+          "year": 2020,
+          "month": 9,
+          "day": 26
+        }
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Irvine",
+        "area": "Computer Science",
+        "studyType": "Coding Certificate",
+        "startDate": "2020-09-01",
+        "endDate": "2021-03-12",
+        "start": {
+          "year": 2020,
+          "month": 9
+        },
+        "end": {
+          "year": 2021,
+          "month": 3
+        },
+        "description": "",
+        "activities": "",
+        "gpa": "",
+        "courses": []
+      },
+      {
+        "institution": "Harvard/edX",
+        "area": "Computer Science",
+        "studyType": "CS50X Certificate",
+        "startDate": "2020-03-12",
+        "endDate": "2021-03-12",
+        "start": {
+          "year": 2020,
+          "month": 3
+        },
+        "end": {
+          "year": 2021,
+          "month": 3
+        },
+        "description": "Introductory course into computer science.",
+        "activities": "",
+        "gpa": "",
+        "courses": []
+      },
+      {
+        "institution": "California State University, Long Beach",
+        "area": "Journalism, Political Science",
+        "studyType": "Bachelor of Arts",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-15",
+        "start": {
+          "year": 2010,
+          "month": 9
+        },
+        "end": {
+          "year": 2014,
+          "month": 6
+        },
+        "description": "",
+        "activities": "",
+        "gpa": "",
+        "courses": []
+      }
+    ],
+    "volunteer": [],
+    "awards": [
+      {
+        "title": "Idea Maker Competition Masterpiece Award",
+        "summary": "",
+        "awarder": "Oriental Institute of Technology",
+        "date": "2018-10-01",
+        "fullDate": {
+          "year": 2018,
+          "month": 10
+        }
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Native speaker"
+      }, {
+        "language": "French",
+        "fluency": "Fluent"
+      }
+    ],
+    "interests": [],
+    "references": []
+  }

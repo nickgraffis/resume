@@ -1,0 +1,20 @@
+<ul class="text-gray-600">
+    {{#each work}}
+    <li>
+        <p class="space-x-2">
+            <a href="{{website}}" class="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out hover:text-fuchsia-700">{{company}}</a> 
+            <span>{{position}}</span>
+        </p>
+        <p class="text-sm">
+            {{formatDate startDate}} - 
+            {{#if endDate}} {{formatDate endDate}} {{/if}} {{#unless endDate}} <span class="italic">present</span> {{/unless}}
+            | {{location}}
+            </p>
+        <ul style="list-style-type: circle;" class="list-inside my-2">
+            {{#each highlights}}
+                <li class="ml-4">{{this}}</li>
+            {{/each}}
+        </ul>
+    </li>
+    {{/each}}
+</ul>

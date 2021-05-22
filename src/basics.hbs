@@ -1,0 +1,16 @@
+<div class="space-y-2">
+    <div class="flex lg:flex-row flex-col items-center space-x-4">
+        <img itemprop="image" alt="{{basics.name}}" class="object-cover h-8 w-8 lg:rounded-lg rounded-full" src={{basics.picture}} />
+        <p itemprop="name" class="font-bold text-gray-800 text-2xl">{{basics.name}}</p>
+    </div>
+    <p>{{basics.label}}</p>
+</div>
+<a itemprop="email" href="mailto:{{basics.email}}" class="cursor-pointer transition-colors duration-150 ease-in-out hover:text-fuchsia-700 underline text-sm">
+    {{basics.email}}
+</a>
+<a itemprop="telephone" href="tel://{{basics.phone}}" class="cursor-pointer transition-colors duration-150 ease-in-out hover:text-fuchsia-700 underline text-sm">
+    {{basics.phone}}
+</a>
+<p class="text-sm">{{basics.location.city}}</p>
+<p class="text-sm">{{basics.location.region}}, {{basics.location.countryCode}}</p>
+{{> socials}}
