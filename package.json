@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "1.0.0",
   "description": "View it [here](https://nickgraffis.github.io/resume/)",
-  "main": "serve.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
