@@ -348,7 +348,7 @@ function handlebars({
 
   const helpers = Object.keys(registerHelpers)
 
-  if (helpers?.length) {
+  if (helpers && helpers.length) {
     helpers.forEach((helper) => {
       if (typeof registerHelpers[helper] === 'function') handlebars$1.registerHelper(helper, registerHelpers[helper])
     })

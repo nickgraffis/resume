@@ -28,7 +28,7 @@ async function buildPDF(html) {
   
   async function buildAll() {
     const html = await fs.readFile('dist/index.html', 'utf8')
-    const css = await fs.readFile('dist/assets/index.4c84e427.css', 'utf8')
+    const css = await fs.readFile('dist/assets/index.80b26cb6.css', 'utf8')
     const dom = new jsdom.JSDOM(html)
     dom.window.document.querySelector("head").innerHTML += `<style>
     ${css}
