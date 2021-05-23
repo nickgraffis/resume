@@ -22,4 +22,11 @@ export default {
     }),
     WindiCSS(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: `assets/[name].[ext]`
+      }
+    }
+  }
 };

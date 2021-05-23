@@ -10,7 +10,7 @@
       "username": "nickgraffis",
       "email": "hi@nickgraffis.me",
       "location": {
-        "city": "Long Beach, San Fransisco (Remote)",
+        "city": "Long Beach, San Fransisco, Remote",
         "region": "California",
         "countryCode": "USA"
       },
@@ -103,7 +103,7 @@
     "projects": [
       {
         "name": "HadenaJS",
-        "displayName": "i18n Ally",
+        "displayName": "HadenaJS",
         "summary": "Library for manipulating colors, and an awesome web app to show it off.",
         "website": "https://hadena.app",
         "githubUrl": "https://github.com/",
@@ -111,14 +111,14 @@
       },
       {
         "name": "LocalDB",
-        "displayName": "@vue/composition-api",
+        "displayName": "LocalDB",
         "summary": "Wrapper for quickly working with local storage in javascript.",
         "githubUrl": "https://github.com/nickgraffis/localDB",
         "primaryLanguage": "JavaScript"
       },
       {
         "name": "Youmoji",
-        "displayName": "VueUse",
+        "displayName": "Youmoji",
         "summary": "A fun tool to create and download your own emojis from twemoji svg paths.",
         "website": "https://youmoji.app/",
         "githubUrl": "https://github.com/",
@@ -126,7 +126,7 @@
       },
       {
         "name": "Personal Profile",
-        "displayName": "wenyan-lang",
+        "displayName": "Personal Profile",
         "summary": "My personal profile, a static site generated with Vite.",
         "website": "https://nickgraffis.me",
         "githubUrl": "https://github.com/nickgraffis/ng-space",
@@ -150,8 +150,7 @@
         "isCurrentRole": true,
         "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
         "highlights": [
-          "Developed an improved system for querieing people information, and enriching data with outside sources.",
-          "Improved indexing and querieing as a whole with ElasticSearch and Dynamo DB. "
+          "Developed an improved system for querieing people information, and enriching data with outside sources."
         ],
         "startDate": "2021-03-29",
         "start": {
@@ -179,12 +178,12 @@
     ],
     "publications": [
       {
-        "name": "Binjiang Front-End Developer Salon, Hangzhou",
-        "summary": "Talked about the reactivity system and Composition API in Vue.js",
-        "publisher": "Bingjiang Front-End Union",
-        "website": "https://wemp.app/posts/5ec27920-8201-4ef2-9027-92b09b136fab",
+        "name": "",
+        "summary": "",
+        "publisher": "",
+        "website": "",
         "releaseDate": "2020-09-26",
-        "slides": "https://antfu.me/posts/binfe-2020-zh/",
+        "slides": "",
         "fullReleaseDate": {
           "year": 2020,
           "month": 9,
@@ -254,9 +253,9 @@
     "volunteer": [],
     "awards": [
       {
-        "title": "Idea Maker Competition Masterpiece Award",
+        "title": "",
         "summary": "",
-        "awarder": "Oriental Institute of Technology",
+        "awarder": "",
         "date": "2018-10-01",
         "fullDate": {
           "year": 2018,
