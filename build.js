@@ -1,7 +1,10 @@
-const puppeteer = require('puppeteer')
-const fs = require('fs-extra')
 const jsdom = require("jsdom");
+const fs = require('fs-extra');
+const puppeteer = require('puppeteer');
 
+/**
+ * After vite builds our dist files, turn them into a PDF with puppeteer
+ */
 async function buildPDF(html) {
     const browser = await puppeteer.launch({ headless: true })
     const page = await browser.newPage();
@@ -22,23 +25,34 @@ async function buildPDF(html) {
     await browser.close()
     console.log('Saving file...')
     fs.writeFileSync('./dist/resume.pdf', pdf)
-    console.log('Done')
+    console.log('PDF file saved to dist')
     return pdf
   }
   
+  /**
+   * After vite builds or html file, we need make changes to render PDF properly
+   */
   async function buildAll() {
     const html = await fs.readFile('dist/index.html', 'utf8')
     const css = await fs.readFile('dist/assets/index.css', 'utf8')
     const dom = new jsdom.JSDOM(html)
+
+    //Add our WindiCSS into a style tag on top of our index.html page for puppeteer
     dom.window.document.querySelector("head").innerHTML += `<style>
-    ${css}
+      ${css}
     </style>`;
-    dom.window.document.querySelectorAll("a").target = '_blank'
-    dom.window.document.querySelectorAll("a").rel = 'noreferrer'
+
+    //Add proper link targets and secure them for lighthouse ;)
+    dom.window.document.querySelectorAll("a").forEach((a) => {
+      a.target = '_blank';
+      a.rel = 'noreferrer';
+    })
+
+    //Replace the vite index.html file with our changed one
     await fs.writeFile('dist/index.html', dom.serialize())
     const newHTML = await fs.readFile('dist/index.html', 'utf8')
+    console.log('Updated index.html for Puppeteer...')
     await buildPDF(newHTML)
-    console.log('done')
   }
   
   buildAll().catch(e => {
