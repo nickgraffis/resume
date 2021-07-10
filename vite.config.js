@@ -5,26 +5,29 @@ import WindiCSS from 'vite-plugin-windicss';
 import handlebars from './vite-plugin-handlebars';
 
 const loadResume = (path = null) => {
-  return JSON.parse(fs.readFileSync(`./resume${path ? '-' + path : ''}.json`, 'utf-8'))
+  return JSON.parse(fs.readFileSync(`./${path ? path + '/' : ''}resume.json`, 'utf-8'))
 }
+
+const pageDirs = fs.readdirSync("./", { withFileTypes: true })
+    .filter(dir => {
+     return dir.isDirectory() 
+      && (dir.name !== 'src' 
+      && dir.name !== 'vite-plugin-handlebars' 
+      && dir.name !== '.netlify' 
+      && dir.name !== 'dist'
+      && dir.name !== 'node_modules'
+      && dir.name !== '.git')
+    }).map(dir => dir.name)
 
 const pages = {
   '/index.html': {
     ...loadResume(),
-    accent: 'bg-fuchsia-700',
-    hoverAccent: 'hover:text-fuchsia-700',
-    meta: {
-      description: 'Nick Graffis is a full stack software engineer specializing in front end technoligies around typescript and javascript, as-well-as serverside technolgies and languages, like node, python, goland, c/c++.'
-    }
+    ...JSON.parse(fs.readFileSync(`./data.json`))
   },
-  '/waterpolo/index.html': {
-    ...loadResume('waterpolo'),
-    accent: 'bg-cyan-500',
-    hoverAccent: 'hover:text-cyan-700',
-    meta: {
-      description: 'Nick Graffis has been a water polo coach in Southern California for the past 12 years.'
-    }
-  }
+  ...Object.fromEntries(pageDirs.map(dir => [`/${dir}/index.html`, {
+    ...loadResume(dir),
+    ...JSON.parse(fs.readFileSync(`${dir}/data.json`))
+  }]))
 }
 
 export default {
@@ -44,7 +47,9 @@ export default {
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        nested: resolve(__dirname, 'waterpolo/index.html')
+        ...(pageDirs.length) && { 
+          ...pageDirs.map(page => resolve(__dirname, `${page}/index.html`))
+        }
       },
       output: {
         assetFileNames: `assets/[name].[ext]`

@@ -1,0 +1,7 @@
+{
+  "accent": "bg-fuchsia-700",
+  "hoverAccent": "hover:text-fuchsia-700",
+  "meta": {
+    "description": "Nick Graffis is a full stack software engineer specializing in front end technoligies around typescript and javascript, as-well-as serverside technolgies and languages, like node, python, goland, c/c++."
+  }
+}
