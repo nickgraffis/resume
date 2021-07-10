@@ -47,7 +47,7 @@ async function buildPDF(html, name) {
 
     //Replace the vite html file with our changed one
     await fs.writeFile(`dist/${location}`, dom.serialize())
-    const newHTML = await fs.readFile('dist/index.html', 'utf8')
+    const newHTML = await fs.readFile(`dist/${location}`, 'utf8')
     console.log(`Updated ${location} for Puppeteer...`)
     await buildPDF(newHTML, location === 'index.html' ? 'resume' : location.split('/')[0])
   }
