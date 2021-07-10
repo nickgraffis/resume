@@ -1,0 +1,245 @@
+{
+  "basics": {
+    "name": "Nick Graffis",
+    "picture": "https://nickgraffis.me/nick.png",
+    "label": "Water Polo Coach",
+    "headline": "",
+    "summary": "Nick has been a water polo coach for 12 years and helped lead many teams from ages 7 - 25 to extremly abitious goals. This includes building the first girls program at Vanguard Aquatics and bringing them to multiple medal finishes in Junior Olympics. This also includes bringing the Edison High School girls water polo team to their first ever quarterfinal, and semifinal apperances, and taking the UC Irvine womens club team to their highest finishes in team history.",
+    "website": "https://nickgraffis.me/waterpolo",
+    "username": "nickgraffis",
+    "email": "hi@nickgraffis.me",
+    "location": {
+      "city": "Long Beach",
+      "region": "California",
+      "countryCode": "USA"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nickgraffis",
+        "username": "nickgraffis"
+      },
+      {
+        "network": "Twitter",
+        "url": "https://twitter.com/nickgraffistwit",
+        "username": "nickgraffistwit"
+      },
+      {
+        "network": "Instagram",
+        "username": "nicholasgraffis",
+        "url": "https://instagram.com/nicholasgraffis"
+      },
+      {
+        "network": "Portfolio",
+        "username": "nickgraffis",
+        "url": "https://nickgraffis.me/waterpolo"
+      }
+    ]
+  },
+  "skills": [
+    
+  ],
+  "projects": [
+    
+  ],
+  "work": [
+    {
+      "company": "Vanguard Aquatics",
+      "position": "Head Coach",
+      "website": "https://hbvanguard.com",
+      "location": "Huntington Beach, CA",
+      "isCurrentRole": true,
+      "summary": "Lead teams of young men and women age 7 - 18 in competition at the highest level of the sport in the country.",
+      "highlights": [
+        "2017 National Champions - 10U Coed",
+        "2016 National Bronze Medalists - 10U Girls",
+        "2017 National Silver Medalists - 10U Girls",
+        "2018 National Silver Medalists - 10U Coed"
+      ],
+      "startDate": "2014-09-01",
+      "start": {
+        "year": 2014,
+        "month": 9
+      }
+    },
+    {
+      "company": "Cypress Community College",
+      "position": "Adjunct Professor of Kinesiology, Assistant Water Polo Coach",
+      "website": "http:/www.cypresscollege.edu",
+      "location": "Cypress, California",
+      "summary": "Helped lead the mens and womens water polo teams.",
+      "isCurrentRole": true,
+      "startDate": "2020-01-01",
+      "start": {
+        "year": 2019,
+        "month": 1
+      },
+      "highlights": [
+      ]
+    },
+    {
+      "company": "Edison High School",
+      "position": "Head Mens and Womens Water Polo Coach",
+      "website": "http:/www.edisonwp.com",
+      "location": "Huntington Beach, California",
+      "summary": "Lead the entire program toward the best finishes in the schools history in this sport. ",
+      "isCurrentRole": true,
+      "startDate": "2016-5-01",
+      "start": {
+        "year": 2016,
+        "month": 5
+      },
+      "highlights": [
+        "2020 CIF-SS Division IV Semifinalists",
+        "2019 CIF-SS Division III Quarterfinalists",
+        "2019 CIF-SS Division IV Quarterfinalists"
+      ]
+    },
+    {
+      "company": "Orange Coast Community College",
+      "position": "Adjunct Professor of Kinesiology, Assistant Water Polo & Swim Coach",
+      "website": "http:/www.occ.edu",
+      "location": "Costa Mesa, California",
+      "summary": "Helped with many programs, and lead the womens water polo team in 2019.",
+      "isCurrentRole": true,
+      "startDate": "2019-5-01",
+      "endDate": "2020-01-01",
+      "start": {
+        "year": 2019,
+        "month": 5
+      },
+      "end": {
+        "year": 2020,
+        "month": 1
+      },
+      "highlights": [
+        "2019 CCCAA State Champions"
+      ]
+    },
+    {
+      "company": "University of California, Irvine",
+      "position": "Head Womens Club Water Polo",
+      "website": "http:/www.uci.edu",
+      "location": "Irvine, California",
+      "summary": "Lead the womens club team toward high goals of competing at the highest level of the collegiate club level in the nation.",
+      "isCurrentRole": false,
+      "startDate": "2013-9-01",
+      "start": {
+        "year": 2013,
+        "month": 9
+      },
+      "endDate": "2015-5-01",
+      "end": {
+        "year": 2015,
+        "month": 9
+      },
+      "highlights": [
+        "2015 CWPA National Semifinalists",
+        "2015 Southwestern Division Runners-Up",
+        "2015 Southwestern Division Coach of the Year",
+        "2015 UCI Club Sports Coach of the Year"
+      ]
+    },
+    {
+      "company": "Huntington Beach High School",
+      "position": "Assistant Mens Water Polo Coach",
+      "website": "http:/www.hbhsaquatics.edu",
+      "location": "Huntington Beach, California",
+      "summary": "Helped lead the mens team.",
+      "isCurrentRole": false,
+      "startDate": "2016-5-01",
+      "start": {
+        "year": 2016,
+        "month": 5
+      },
+      "endDate": "2018-8-01",
+      "end": {
+        "year": 2018,
+        "month": 8
+      },
+      "highlights": [
+        "2016 CIF-SS Division I Finalists",
+        "2016 Sunset League Champions",
+        "2017 Sunset League Runners-Up",
+        "2017 CIF-SS Division I Quarterfinalists",
+        "2018 Sunset League Runners-Up"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "summary": "",
+      "publisher": "",
+      "website": "",
+      "releaseDate": "2020-09-26",
+      "slides": "",
+      "fullReleaseDate": {
+        "year": 2020,
+        "month": 9,
+        "day": 26
+      }
+    }
+  ],
+  "education": [
+    {
+      "institution": "California State University, Long Beach",
+      "area": "Journalism, Political Science",
+      "studyType": "Bachelor of Arts",
+      "startDate": "2010-09-01",
+      "endDate": "2014-06-15",
+      "start": {
+        "year": 2010,
+        "month": 9
+      },
+      "end": {
+        "year": 2014,
+        "month": 6
+      },
+      "description": "",
+      "activities": "",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "volunteer": [],
+  "awards": [
+    {
+      "title": "",
+      "summary": "",
+      "awarder": "",
+      "date": "2018-10-01",
+      "fullDate": {
+        "year": 2018,
+        "month": 10
+      }
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }, {
+      "language": "French",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Sasa Branisavljevic",
+      "title": "President, Vanguard Aquatics",
+      "email": "sasa@hbvanguard.com"
+    },
+    {
+      "name": "Brian Anderson",
+      "title": "Head Coach, Mater Dei Water Polo",
+      "email": "b_anderson5@mac.com"
+    },
+    {
+      "name": "Mark Canner",
+      "title": "Head Coach, Cypress College",
+      "email": "markcanner@aol.com"
+    }
+  ]
+}

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/nickgraffis/resume#readme",
   "devDependencies": {
     "optimist": "^0.6.1",
+    "vite-plugin-pages": "^0.13.1",
     "vite-plugin-windicss": "^0.15.10",
     "windicss": "^3.0.9"
   },
@@ -28,6 +29,7 @@
     "jsdom": "^16.5.3",
     "puppeteer": "^9.1.1",
     "vite": "^2.3.3",
-    "vite-plugin-handlebars": "^1.5.1"
+    "vite-plugin-handlebars": "^1.5.1",
+    "vite-plugin-mpa": "^1.0.2"
   }
 }

@@ -381,7 +381,7 @@ function handlebars({
         if (partialDirectory) {
           await registerPartials(partialDirectory, partialsSet);
         }
-
+        // if (ctx.originalUrl === '/waterpolo/') context.basics.name = 'poop'
         const template = handlebars$1.compile(html, compileOptions);
         const resolvedContext = await resolveContext(context, vite.normalizePath(ctx.path));
         const result = template(resolvedContext, runtimeOptions);

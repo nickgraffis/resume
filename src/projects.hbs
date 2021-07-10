@@ -3,13 +3,13 @@
         <div class="col-span-2 lg:col-span-1 text-gray-600">
             <div class="flex items-center space-x-2">
                 <p class="font-bold text-gray-800">{{name}}</p>
-                {{#if githubUrl}}<a aria-label="GitHub" href="{{githubUrl}}">{{> github}}</a>{{/if}}
-                {{#if website}}<a aria-label={{name}} href="{{website}}">{{> link}}</a>{{/if}}
+                {{#if githubUrl}}<a aria-label="GitHub" href="{{githubUrl}}">{{> github hover=../hoverAccent}}</a>{{/if}}
+                {{#if website}}<a aria-label={{name}} href="{{website}}">{{> link hover=../hoverAccent}}</a>{{/if}}
             </div>
             <p>{{summary}}</p>
         </div>
     {{/each}}
-    <a href="{{basics.projects_url}}" class="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out hover:text-fuchsia-700">
+    <a href="{{basics.projects_url}}" class="underline font-bold text-gray-800 cursor-pointer transition-colors duration-150 ease-in-out {{hoverAccent}}">
         More Projects...
     </a>
 </div>

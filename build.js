@@ -5,12 +5,12 @@ const puppeteer = require('puppeteer');
 /**
  * After vite builds our dist files, turn them into a PDF with puppeteer
  */
-async function buildPDF(html) {
+async function buildPDF(html, name) {
     const browser = await puppeteer.launch({ headless: true })
     const page = await browser.newPage();
-    console.log('Opening puppeteer...')
+    console.log(`Opening puppeteer for ${name}...`)
     await page.setContent(html, { waitUntil: 'networkidle0' })
-    console.log('Generating PDF...')
+    console.log(`Generating PDF for ${name}...`)
     const pdf = await page.pdf({
       format: 'A4', 
       displayHeaderFooter: false, 
@@ -23,18 +23,15 @@ async function buildPDF(html) {
       }
     })
     await browser.close()
-    console.log('Saving file...')
-    fs.writeFileSync('./dist/resume.pdf', pdf)
+    console.log(`Saving file ${name}...`)
+    fs.writeFileSync(`./dist/${name}.pdf`, pdf)
     console.log('PDF file saved to dist')
     return pdf
   }
-  
-  /**
-   * After vite builds or html file, we need make changes to render PDF properly
-   */
-  async function buildAll() {
-    const html = await fs.readFile('dist/index.html', 'utf8')
-    const css = await fs.readFile('dist/assets/index.css', 'utf8')
+
+  async function build(location) {
+    const html = await fs.readFile(`dist/${location}`, 'utf8')
+    const css = await fs.readFile('dist/assets/windi.css', 'utf8')
     const dom = new jsdom.JSDOM(html)
 
     //Add our WindiCSS into a style tag on top of our index.html page for puppeteer
@@ -48,11 +45,26 @@ async function buildPDF(html) {
       a.rel = 'noreferrer';
     })
 
-    //Replace the vite index.html file with our changed one
-    await fs.writeFile('dist/index.html', dom.serialize())
+    //Replace the vite html file with our changed one
+    await fs.writeFile(`dist/${location}`, dom.serialize())
     const newHTML = await fs.readFile('dist/index.html', 'utf8')
-    console.log('Updated index.html for Puppeteer...')
-    await buildPDF(newHTML)
+    console.log(`Updated ${location} for Puppeteer...`)
+    await buildPDF(newHTML, location === 'index.html' ? 'resume' : location.split('/')[0])
+  }
+  
+  /**
+   * After vite builds or html file, we need make changes to render PDF properly
+   */
+  async function buildAll() {
+    //Get all of the sub pages
+    const pages = fs.readdirSync("dist", { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory() && dirent.name !== 'assets')
+    .map(dirent => dirent.name)
+    //Build each of the pages
+    pages.forEach(page => build(page + '/index.html'))
+
+    //After building sub pages build the index.html
+    build('index.html')
   }
   
   buildAll().catch(e => {

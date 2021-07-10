@@ -1,0 +1,42 @@
+<main class="h-full w-screen flex flex-col">
+    <div class="max-w-6xl p-6 mx-auto flex-grow">
+        <div class="grid grid-cols-12 gap-0 lg:gap-0 h-full mt-6">
+            <div class="lg:col-span-4 mb-36 col-span-12 h-12 flex flex-col items-center lg:items-start">
+                {{> basics}}
+            </div>
+            <div class="lg:col-span-8 col-span-12 w-full h-full">
+                <div class="flex flex-col space-y-6">
+                    <div>
+                        {{> header title='About'}}
+                        {{> basicscont}}
+                    </div>
+                    <div>
+                        {{> header title='Work Experience'}}
+                        {{> workexperience}}
+                    </div>
+                    <div>
+                        {{> header title='Education'}}
+                        {{> education}}
+                    </div>
+                    <div>
+                        {{> header title='Refrences'}}
+                        {{> references}}
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-span-12 py-6">
+                <div class="detail no-print">
+                <a href="https://resume.nickgraffis.me/waterpolo.pdf" class="print:hidden underline cursor-pointer transition-colors duration-150 ease-in-out {{hoverAccent}}" itemprop="pdf" target="_blank">
+                    PDF Version
+                </a>
+                </div>
+                <div class="detail print-only">
+                <a href="https://resume.nickgraffis.me" class="hidden print:inline-flex underline cursor-pointer transition-colors duration-150 ease-in-out {{hoverAccent}}" itemprop="pdf" target="_blank">
+                    Online Version
+                </a>
+                </div>
+                <div class="text-gray-600 text-sm">Last updated at {{buildTime ''}} </div>
+            </div>
+        </div>
+    </div>
+</main>
