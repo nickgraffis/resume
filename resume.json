@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Nick Graffis",
-      "picture": "https://nickgraffis.me/nick.png",
+      "picture": "https://nickgraffis.me/assets/images/nick.png",
       "label": "Software Engineer",
       "headline": "",
       "summary": "I am a software engineer with a stack that includes frontend and backend, and multiple languages and frameworks. Four years of experience in software development building tools quickly, efficiently, without sacrificing quality and care. A great problem solver who can quickly identify and methodically solve issues. Highly dynamic and adaptive; combining creativity and critical thinking to solve complex problems. Known among colleagues for strong collaboration skills, leadership qualities and a keen understanding of design and user needs. \n\n As a self motivated software enthusiest, I have contributed to several major improvements to my company's platform, Model Match, and developed several personal and open source projects, as-well-as contributing to other open source projects.",
@@ -66,7 +66,8 @@
           "Docker",
           "AWS",
           "FaunaDB",
-          "NoSQL"
+          "NoSQL",
+          "Elastic Search"
         ],
         "level": "Senior",
         "name": "Backend"
@@ -84,7 +85,9 @@
         "keywords": [
           "Python",
           "C/C++",
-          "Go"
+          "Go",
+          "Javascript",
+          "Typescript"
         ],
         "level": "Intermediate",
         "name": "Languages"
@@ -105,8 +108,31 @@
         "name": "HadenaJS",
         "displayName": "HadenaJS",
         "summary": "Library for manipulating colors, and an awesome web app to show it off.",
-        "website": "https://hadena.app",
-        "githubUrl": "https://github.com/",
+        "website": "https://hadena.netlify.app",
+        "githubUrl": "https://github.com/nickgraffis/hadena",
+        "primaryLanguage": "TypeScript"
+      },
+      {
+        "name": "Tailwind Toast",
+        "displayName": "Tailwind Toast",
+        "summary": "Opensource Vanilla JS library for toast notifications, styled in a tailwind fashion",
+        "githubUrl": "https://github.com/nickgraffis/tailwind-toast",
+        "primaryLanguage": "Javascript"
+      },
+      {
+        "name": "Tailwind Dracula",
+        "displayName": "Tailwind Dracula",
+        "summary": "Opensource tailwind plugin for the dracula color palette and a host of similar colors.",
+        "website": "https://draculatheme.com/tailwind",
+        "githubUrl": "https://github.com/dracula/tailwind",
+        "primaryLanguage": "Javascript"
+      },
+      {
+        "name": "Tailwind Color Generator",
+        "displayName": "Tailwind Color Generator",
+        "summary": "Opensource tailwind plugin to quickly create a color palette from a single starting point color.",
+        "website": "https://tw-shade-gen.netlify.app",
+        "githubUrl": "https://github.com/nickgraffis/tailwind-color-generator",
         "primaryLanguage": "TypeScript"
       },
       {
@@ -121,13 +147,13 @@
         "displayName": "Youmoji",
         "summary": "A fun tool to create and download your own emojis from twemoji svg paths.",
         "website": "https://youmoji.app/",
-        "githubUrl": "https://github.com/",
+        "githubUrl": "https://github.com/nickgraffis/youmoji",
         "primaryLanguage": "JavaScript"
       },
       {
         "name": "Personal Profile",
         "displayName": "Personal Profile",
-        "summary": "My personal profile, a static site generated with Vite.",
+        "summary": "My personal profile, a static site generated with Vite & Vue.",
         "website": "https://nickgraffis.me",
         "githubUrl": "https://github.com/nickgraffis/ng-space",
         "primaryLanguage": "TypeScript"
@@ -136,8 +162,16 @@
         "name": "Babelbox",
         "displayName": "Babelbox",
         "summary": "A collection of fun games to play with your friends either in the same room, or across the globe.",
-        "githubUrl": "https://babelbox.herokuapp.com",
-        "githubUrl": "https://github.com",
+        "website": "https://babelbox.herokuapp.com",
+        "githubUrl": "https://github.com/BAVEL-Technology/BabelBox-V1.0",
+        "primaryLanguage": "JavaScript"
+      },
+      {
+        "name": "Pettie Vin",
+        "displayName": "Petite Vin",
+        "summary": "A quick petite-vue project to showcase some awesome wine.",
+        "website": "https://vin.nickgraffis.me",
+        "githubUrl": "https://github.com/nickgraffis/petite-vin",
         "primaryLanguage": "JavaScript"
       }
     ],
@@ -150,30 +184,15 @@
         "isCurrentRole": true,
         "summary": "Improving user experience and data recall/collection using frontend and backend technoligies.",
         "highlights": [
-          "Developed an improved system for querieing people information, and enriching data with outside sources."
+          "Developed an improved system for querieing people information, and enriching data with outside sources.",
+          "Improved CI/CD pipeline to make deployments faster and more reliable.",
+          "Developed new features to help users navigate through potential leads by location or relevent skills."
         ],
         "startDate": "2021-03-29",
         "start": {
           "year": 2021,
           "month": 3
         }
-      },
-      {
-        "company": "Bavel Technoligies, Ltd.",
-        "position": "Co-Founder, Lead Software Engineer",
-        "website": "http://www.baveltech.com/",
-        "location": "Los Angeles, California",
-        "summary": "Worked on developing POS system in C#.NET and ASP.NET",
-        "isCurrentRole": true,
-        "startDate": "2020-12-01",
-        "start": {
-          "year": 2020,
-          "month": 12
-        },
-        "highlights": [
-          "Built several open source projects that make the web more fun.",
-          "Built a contracted PWA application for sports tournaments and data collection."
-        ]
       }
     ],
     "publications": [
