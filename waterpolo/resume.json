@@ -28,11 +28,6 @@
         "network": "Instagram",
         "username": "nicholasgraffis",
         "url": "https://instagram.com/nicholasgraffis"
-      },
-      {
-        "network": "Portfolio",
-        "username": "nickgraffis",
-        "url": "https://nickgraffis.me/waterpolo"
       }
     ]
   },
@@ -52,9 +47,12 @@
       "summary": "Lead teams of young men and women age 7 - 18 in competition at the highest level of the sport in the country.",
       "highlights": [
         "2017 National Champions - 10U Coed",
-        "2016 National Bronze Medalists - 10U Girls",
+        "2021 National Silver Medalists - 12U Boys",
         "2017 National Silver Medalists - 10U Girls",
         "2018 National Silver Medalists - 10U Coed"
+        "2016 National Bronze Medalists - 10U Girls",
+        "2022 National 7th Place Finish - 10U Coed",
+        "2021 National 9th Place Finish - 10U Coed"
       ],
       "startDate": "2014-09-01",
       "start": {
@@ -74,6 +72,10 @@
         "year": 2019,
         "month": 1
       },
+       "end": {
+        "year": 2023,
+        "month": 1
+      },
       "highlights": [
       ]
     },
@@ -87,6 +89,10 @@
       "startDate": "2016-5-01",
       "start": {
         "year": 2016,
+        "month": 5
+      },
+       "end": {
+        "year": 2023,
         "month": 5
       },
       "highlights": [
@@ -234,14 +240,9 @@
       "email": "sasa@hbvanguard.com"
     },
     {
-      "name": "Brian Anderson",
-      "title": "Head Coach, Mater Dei Water Polo",
-      "email": "b_anderson5@mac.com"
-    },
-    {
-      "name": "Mark Canner",
-      "title": "Head Coach, Cypress College",
-      "email": "markcanner@aol.com"
+      "name": "Rich Boyce",
+      "title": "Athletic Director, Edison High School",
+      "email": "rboyce@hbuhsd.edu"
     }
   ]
 }
