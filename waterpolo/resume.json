@@ -5,7 +5,6 @@
     "label": "Water Polo Coach",
     "headline": "",
     "summary": "Nick has been a water polo coach for 12 years and helped lead many teams from ages 7 - 25 to extremly abitious goals. This includes building the first girls program at Vanguard Aquatics and bringing them to multiple medal finishes in Junior Olympics. This also includes bringing the Edison High School girls water polo team to their first ever quarterfinal, and semifinal apperances, and taking the UC Irvine womens club team to their highest finishes in team history.",
-    "website": "https://nickgraffis.me/waterpolo",
     "username": "nickgraffis",
     "email": "hi@nickgraffis.me",
     "location": {
@@ -18,16 +17,6 @@
         "network": "LinkedIn",
         "url": "https://www.linkedin.com/in/nickgraffis",
         "username": "nickgraffis"
-      },
-      {
-        "network": "Twitter",
-        "url": "https://twitter.com/nickgraffistwit",
-        "username": "nickgraffistwit"
-      },
-      {
-        "network": "Instagram",
-        "username": "nicholasgraffis",
-        "url": "https://instagram.com/nicholasgraffis"
       }
     ]
   },
@@ -40,7 +29,41 @@
   "work": [
     {
       "company": "Vanguard Aquatics",
-      "position": "Head Coach",
+      "positions": [
+        {
+          "title": "Assistant Coach",
+          "startDate": "2014-09-01",
+          "start": {
+            "year": 2014,
+            "month": 9
+          },
+          "end": {
+            "year": 2016,
+            "month": 1
+          },
+        },
+        {
+          "title": "Head Coach",
+          "startDate": "2016-01-01",
+          "start": {
+            "year": 2016,
+            "month": 1
+          },
+          "end": {
+            "year": 2023,
+            "month": 11
+          },
+        },
+        {
+          "title": "Youth Program Director",
+          "startDate": "2023-11-01",
+          "start": {
+            "year": 2023,
+            "month": 11
+          },
+          "isCurrentRole": true
+        }
+      ],
       "website": "https://hbvanguard.com",
       "location": "Huntington Beach, CA",
       "isCurrentRole": true,
@@ -51,6 +74,7 @@
         "2017 National Silver Medalists - 10U Girls",
         "2018 National Silver Medalists - 10U Coed"
         "2016 National Bronze Medalists - 10U Girls",
+        "2023 National Silver Medalists - 10U Coed",
         "2022 National 7th Place Finish - 10U Coed",
         "2021 National 9th Place Finish - 10U Coed"
       ],
@@ -154,7 +178,7 @@
       "website": "http:/www.hbhsaquatics.edu",
       "location": "Huntington Beach, California",
       "summary": "Helped lead the mens team.",
-      "isCurrentRole": false,
+      "isCurrentRole": true,
       "startDate": "2016-5-01",
       "start": {
         "year": 2016,
@@ -171,6 +195,28 @@
         "2017 Sunset League Runners-Up",
         "2017 CIF-SS Division I Quarterfinalists",
         "2018 Sunset League Runners-Up"
+      ]
+    },
+    {
+      "company": "Huntington Beach High School",
+      "position": "Varsity Assistant Mens Water Polo Coach",
+      "website": "http:/www.hbhsaquatics.edu",
+      "location": "Huntington Beach, California",
+      "summary": "Helped lead the mens team.",
+      "isCurrentRole": true,
+      "startDate": "2023-8-01",
+      "start": {
+        "year": 2023,
+        "month": 8
+      },
+      "endDate": "2023-11-01",
+      "end": {
+        "year": 2023,
+        "month": 11
+      },
+      "highlights": [
+        "2023 CIF-SS Division I Champions",
+        "2023 Sunset League Runners-Up",
       ]
     }
   ],
